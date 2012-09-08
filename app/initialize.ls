@@ -1,11 +1,13 @@
 # Register modules
-require('src/main/register')
+require('register')
 
 # Create app module & load dependencies
 App = angular.module('app', [
 	'ngCookies'
 	'ngResource'
-	'app.main'
+	'app.controllers'
+	'app.directives'
+	'app.services'
 ])
 
 # Register router
