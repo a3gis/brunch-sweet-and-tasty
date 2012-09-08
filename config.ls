@@ -1,16 +1,16 @@
 exports.config =
   paths:
     public: 'public'
-
-  modules:
-    definition: false
-    wrapper: (path, data) ->
-      """
-(function() {
-  'use strict';
-  #{data}
-}).call(this);\n\n
-      """
+# 
+#   modules:
+#     definition: false
+#     wrapper: (path, data) ->
+#       """
+# (function() {
+#   'use strict';
+#   #{data}
+# }).call(this);\n\n
+#       """
 
   files:
     javascripts:
@@ -51,5 +51,5 @@ exports.config =
        before: ['vendor/styles/bootstrap/bootstrap.less']
 
     templates:
-      defaultExtension: 'hbs'
+      defaultExtension: 'jade'
       joinTo: 'javascripts/app.js'

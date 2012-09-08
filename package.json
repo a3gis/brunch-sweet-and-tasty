@@ -17,6 +17,8 @@
   "dependencies": {
     "javascript-brunch": ">= 1.0 < 1.4",
     "less-brunch": ">= 1.0 < 1.4",
+	 "jade-brunch": "*",
+
     "css-brunch": ">= 1.0 < 1.4",
 
     "LiveScript-brunch": ">= 1.4",
