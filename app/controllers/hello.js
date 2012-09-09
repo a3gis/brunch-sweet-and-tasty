@@ -4,7 +4,7 @@ function HelloCtrl($scope) {
 	$scope.people = ["John", "Nick", "Bil"]
 	$scope.average = [1,65,2,77,34].average()
 
-	$scope.sayHello = function(id) {
+	$scope.sayHello = function() {
 		$scope.title = "Hello, " + $scope.name + "!"
 	}
 }
