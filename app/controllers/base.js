@@ -11,3 +11,4 @@ function BaseCtrl($scope, $location) {
 BaseCtrl.$inject = ['$scope', '$location']
 
 module.exports = BaseCtrl;
+var a = 5;
