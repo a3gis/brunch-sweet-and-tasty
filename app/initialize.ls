@@ -7,7 +7,6 @@ App = angular.module('app', [
 	'ngResource'
 	'app.controllers'
 	'app.directives'
-	'app.services'
 ])
 
 # Register router

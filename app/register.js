@@ -4,6 +4,3 @@ angular.module('app.controllers', [])
 
 angular.module('app.directives', [])
 	.directive('appVersion', require('./directives/app_version'))
-
-angular.module('app.services', [])
-	.factory('version', require('./services/version'))
