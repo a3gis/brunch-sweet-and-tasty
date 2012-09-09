@@ -1,9 +1,7 @@
-function AppVersion(version) {
+function AppVersion() {
 	return function(scop, elem, attrs) {
-		elem.text(version)
+		elem.text("0.1")
 	}
 }
-
-AppVersion.$inject = ['version']
 
 module.exports = AppVersion;
