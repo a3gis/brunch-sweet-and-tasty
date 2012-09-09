@@ -1,16 +1,6 @@
 exports.config =
   paths:
     public: 'public'
-# 
-#   modules:
-#     definition: false
-#     wrapper: (path, data) ->
-#       """
-# (function() {
-#   'use strict';
-#   #{data}
-# }).call(this);\n\n
-#       """
 
   files:
     javascripts:
@@ -22,7 +12,6 @@ exports.config =
         before: [
           'vendor/scripts/console-helper.js',
           'vendor/scripts/jquery-1.7.2.js',
-          'vendor/scripts/underscore-1.3.1.js',
           'vendor/scripts/sugar-1.3.min.js',
           
 
@@ -49,7 +38,3 @@ exports.config =
       joinTo: 'stylesheets/app.css'
       order:
        before: ['vendor/styles/bootstrap/bootstrap.less']
-
-    templates:
-      defaultExtension: 'jade'
-      joinTo: 'javascripts/app.js'
