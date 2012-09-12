@@ -1,0 +1,1 @@
+# Filters go here and are loaded into app/initialize
