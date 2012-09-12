@@ -1,11 +1,8 @@
 # Controllers go here and are loaded into app/initialize
  
-BaseCtrl = ($scope, $location) ->
+BaseCtrl = ($scope, $location) ->	
 	$scope.getClass = (id) ->
-		if $location.path().substring(0, id.length) == id
-			'active'
-		else
-			''
+		if $location.path().substring(0, id.length) == id then 'active' else ''
 		
 module.exports.BaseCtrl = BaseCtrl
 

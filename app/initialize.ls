@@ -5,7 +5,7 @@ app = angular.module 'app', ['ngCookies', 'ngResource']
 Object.keys require('./src/controllers'), (name, controller) -> app.controller(name, controller)
 Object.keys require('./src/directives'), (name, directive) -> app.directive(name, directive)
 Object.keys require('./src/filters'), (name, filter) -> app.filter(name, filter)
-Object.keys require('./src/services'), (name, service) -> app.service(name, service)
+Object.keys require('./src/services'), (name, service) -> app.factory(name, service)
 
 # Register router
 app.config require('./router')
