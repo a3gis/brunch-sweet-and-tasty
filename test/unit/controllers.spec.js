@@ -1,6 +1,6 @@
 'use strict';
 
-var HelloCtrl = require('controllers/hello').HelloCtrl
+var HelloCtrl = require('src/controllers').HelloCtrl
 
 describe('HelloCtrl', function(){
 	var helloCtrl, scope;
